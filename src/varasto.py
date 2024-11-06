@@ -1,6 +1,5 @@
 class Varasto:
     def __init__(self, tilavuus, alku_saldo=0):
-        testi = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
         if tilavuus > 0.0:
             self.tilavuus = tilavuus
         else:
